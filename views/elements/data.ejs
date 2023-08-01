@@ -1,0 +1,18 @@
+<% if (data && data.length > 0) { %>
+  <ul style="list-style: none; padding: 0;">
+    <% data.forEach((item) => { %>
+      <li style="padding: 5px 0; border-bottom: 1px solid #ccc;">
+        <span style="font-weight: bold;">Name:</span>
+        <span><%= item.name %></span>
+        <br>
+        <span style="font-weight: bold;">ID:</span>
+        <span><%= item.id %></span>
+        <br>
+        <span style="font-weight: bold;">City:</span>
+        <span><%= item.city %></span>
+      </li>
+    <% }); %>
+  </ul>
+<% } else { %>
+  <p style="font-style: italic; color: #777;">No data available.</p>
+<% } %>

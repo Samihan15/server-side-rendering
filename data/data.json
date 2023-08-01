@@ -1,0 +1,27 @@
+[
+    {
+        "name": "samihan nandedkar",
+        "id": "1000",
+        "city": "jalgaon"
+    },
+    {
+        "name": "sushant baviskar",
+        "id": "2000",
+        "city": "chopda"
+    },
+    {
+        "name": "bhavesh patil",
+        "id": "3000",
+        "city": "jalgaon"
+    },
+    {
+        "name": "saurabh patil",
+        "id": "4000",
+        "city": "sambhajinagar"
+    },
+    {
+        "name": "dishank girase",
+        "id": "5000",
+        "city": "nandurbar"
+    }
+]

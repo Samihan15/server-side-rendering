@@ -1,0 +1,21 @@
+<nav style="background-color: #333; color: #fff; padding: 10px;">
+    <ul style="margin: 0; padding: 0; display: flex; justify-content: flex-start; align-items: center;">
+        <li style="margin-right: 20px;">
+            <a href="/" style="text-decoration: none; color: #fff;">Home</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/about" style="text-decoration: none; color: #fff;">About</a>
+        </li>
+        <li>
+            <a href="/contact" style="text-decoration: none; color: #fff;">Contact</a>
+        </li>
+    </ul>
+    <div style="display: flex; justify-content: flex-end; align-items: center;">
+        <% if (username) { %>
+            <span style="margin-right: 10px;">Welcome <%= username %>!</span>
+            <a href="/logout" style="padding: 5px 10px; background-color: #555; color: #fff; text-decoration: none; border-radius: 5px;">Logout</a>
+        <% } else { %>
+            <a href="/login" style="padding: 5px 10px; background-color: #555; color: #fff; text-decoration: none; border-radius: 5px;">Login</a>
+        <% } %>
+    </div>
+</nav>

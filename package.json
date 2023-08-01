@@ -1,0 +1,15 @@
+{
+  "name": "assignment-11",
+  "version": "1.0.0",
+  "description": "server side rendering",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "samihan nandedkar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express-session": "^1.17.3"
+  }
+}
